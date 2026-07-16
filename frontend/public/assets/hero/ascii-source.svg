@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="400" viewBox="0 0 640 400" fill="none">
+  <!-- High-contrast monochrome source for ASCII sampling (javii/asciilab style) -->
+  <rect width="640" height="400" fill="#050505"/>
+
+  <!-- soft ambient glow -->
+  <radialGradient id="glow" cx="50%" cy="42%" r="55%">
+    <stop offset="0%" stop-color="#ffffff" stop-opacity="0.22"/>
+    <stop offset="55%" stop-color="#888888" stop-opacity="0.08"/>
+    <stop offset="100%" stop-color="#050505" stop-opacity="0"/>
+  </radialGradient>
+  <rect width="640" height="400" fill="url(#glow)"/>
+
+  <!-- vault shield -->
+  <defs>
+    <linearGradient id="shield" x1="320" y1="80" x2="320" y2="320" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#ffffff"/>
+      <stop offset="0.55" stop-color="#c8c8c8"/>
+      <stop offset="1" stop-color="#6a6a6a"/>
+    </linearGradient>
+    <linearGradient id="drip" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="0.4" stop-color="#eeeeee" stop-opacity="0.85"/>
+      <stop offset="1" stop-color="#ffffff"/>
+    </linearGradient>
+  </defs>
+
+  <!-- shield body -->
+  <path
+    d="M320 72
+       C390 96 448 108 448 108
+       V210
+       C448 278 390 318 320 348
+       C250 318 192 278 192 210
+       V108
+       C192 108 250 96 320 72Z"
+    fill="url(#shield)"
+    stroke="#ffffff"
+    stroke-width="3"
+  />
+
+  <!-- inner vault plate -->
+  <path
+    d="M320 108
+       C372 126 408 136 408 136
+       V208
+       C408 256 366 286 320 308
+       C274 286 232 256 232 208
+       V136
+       C232 136 268 126 320 108Z"
+    fill="#1a1a1a"
+    stroke="#f0f0f0"
+    stroke-width="2"
+  />
+
+  <!-- DG letters -->
+  <text
+    x="320"
+    y="228"
+    text-anchor="middle"
+    font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace"
+    font-size="72"
+    font-weight="700"
+    fill="#ffffff"
+    letter-spacing="-2"
+  >DG</text>
+
+  <!-- drips -->
+  <g fill="url(#drip)" stroke="#ffffff" stroke-width="1.5">
+    <path d="M248 300 C248 300 244 340 248 360 C252 340 248 300 248 300Z"/>
+    <ellipse cx="248" cy="368" rx="7" ry="10" fill="#ffffff"/>
+
+    <path d="M320 318 C320 318 316 350 320 372 C324 350 320 318 320 318Z"/>
+    <ellipse cx="320" cy="380" rx="8" ry="11" fill="#ffffff"/>
+
+    <path d="M392 300 C392 300 388 338 392 358 C396 338 392 300 392 300Z"/>
+    <ellipse cx="392" cy="366" rx="7" ry="10" fill="#ffffff"/>
+  </g>
+
+  <!-- bottom bar / ground reflection -->
+  <rect x="180" y="386" width="280" height="4" rx="2" fill="#ffffff" opacity="0.35"/>
+</svg>

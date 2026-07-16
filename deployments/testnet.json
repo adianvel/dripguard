@@ -1,0 +1,20 @@
+{
+  "network": "testnet",
+  "networkPassphrase": "Test SDF Network ; September 2015",
+  "rpcUrl": "https://soroban-testnet.stellar.org",
+  "horizonUrl": "https://horizon-testnet.stellar.org",
+  "explorerBase": "https://stellar.expert/explorer/testnet",
+  "contractId": "CBUGXL76MTPFKXB5ONRLHB34QHL76J2CL6RBFBRS53HH3TZ5TX53Z3ML",
+  "wasmHash": "6646b21c04dbb54090ee6f9d36ec69b8fadaa440ce6143442c9da0af2512cf7b",
+  "deployer": "GDECFXAXEP3SBVFNXXY7KIP2GQAKT5KVM527QRYNS4FXK76V5OEGBFF5",
+  "deployTx": "930ff086c26d430b7b57ab3e443c43aee9c2ca3f15a510b668454dc8f18c3480",
+  "previousContractId": "CDO6ZO3FASNEEK5EVPB6ZDLDLU4C7SAVIKEDI7LGDLSYMXKKPSVCBNI5",
+  "nativeTokenContractId": "CDLZFC3SYJYDZT7K67VZ75HPJVIEUVNIXF47ZG2FB2RMQQVU2HHGCYSC",
+  "tokenDecimals": 7,
+  "features": [
+    "token_transfers",
+    "velocity_circuit_breaker",
+    "events"
+  ],
+  "notes": "Native XLM SAC on testnet. Amounts in stroops (1 XLM = 10_000_000). Velocity trip auto-pauses without paying (Soroban cannot commit+panic)."
+}

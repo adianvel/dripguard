@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none" role="img" aria-label="DripGuard">
+  <!-- Circular black badge + DripGuard logo (shield + DG + drip) -->
+  <circle cx="32" cy="32" r="32" fill="#0A0A0A"/>
+  <!-- shield outline -->
+  <path
+    fill="#FAFAFA"
+    d="M32 11c8.5 4 15 6 15 6v13.5c0 11-7.5 17.5-15 21.5-7.5-4-15-10.5-15-21.5V17s6.5-2 15-6z"
+  />
+  <!-- shield inner cut -->
+  <path
+    fill="#0A0A0A"
+    d="M32 17.5c6 3 10 4.2 10 4.2V30c0 7.5-5 11.5-10 14.5-5-3-10-7-10-14.5v-8.3S26 20.5 32 17.5z"
+  />
+  <!-- D -->
+  <path
+    fill="#FAFAFA"
+    d="M23 24h5.2c4.1 0 6.8 2.5 6.8 7s-2.7 7-6.8 7H23V24zm3.2 3.2v7.6h2c2.1 0 3.4-1.3 3.4-3.8s-1.3-3.8-3.4-3.8h-2z"
+  />
+  <!-- G -->
+  <path
+    fill="#FAFAFA"
+    d="M41.5 28.2c-.5-1.4-1.9-2.4-3.8-2.4-2.7 0-4.6 2-4.6 5.2 0 3.3 1.9 5.2 4.7 5.2 1.8 0 3.2-.8 3.9-2.3l-2.7-1.1c-.3.6-.9 1-1.5 1-1.1 0-1.8-1-1.8-2.8s.7-2.8 1.8-2.8c.6 0 1.1.3 1.3.8l2.7-1z"
+  />
+  <!-- drip under shield -->
+  <ellipse cx="32" cy="55" rx="2.8" ry="3.5" fill="#FAFAFA"/>
+</svg>
